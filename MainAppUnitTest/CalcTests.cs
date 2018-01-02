@@ -13,5 +13,12 @@ namespace MainAppUnitTest
         {
             Assert.AreEqual(erg, Calc.Add(i1, i2));
         }
+
+        [TestMethod]
+        public void TestsSummationOfTwoIntegers2()
+        {
+            Assert.AreEqual(5, Calc.Add(2, 3));
+        }
+
     }
 }
